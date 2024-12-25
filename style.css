@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    overflow: hidden;
+}
+button{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/707/88/852/dubai-city-aerial-view-skyscraper-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .links ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav .links ul a{
+    text-decoration: none;
+    color: rgb(63, 172, 255);
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav .links ul a:hover{
+    color: blue;
+}
+nav .links ul a:active{
+    color: blue;
+}
+nav .logo{
+    width: 150px;
+}
+nav .logo img{
+    width: 100%;
+}
+nav .search{
+    border: solid;
+    border-color: rgb(210, 210, 210);
+    padding: 7px;
+    margin: 4px;
+    border-width: 1px;
+    border-radius: 50px;
+}
+.search input{
+    border: none;
+    width: 200px;
+    font-size: 14px;
+    outline: none;
+}
+.search i{
+    color: gray;
+}
+.search button{
+    font-size: 14px;
+    padding: 7px;
+    background-color: rgb(63, 172, 255);
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 6px;
+}
+
+main .container{
+    height: 770px;
+    background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+    display: flex;
+}
+main .sm{
+    width: 4%;
+    height: 90%;
+    color: white;
+    font-size: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main .sm .smi{
+    display: flex;
+    flex-direction: column;
+}
+main .sm .smi i{
+    padding-top: 50px;
+}
+main .container .head{
+    color: white;
+    padding: 100px;
+}
+main .container .head h1{
+    width: 50px;
+    font-size: 90px;
+    overflow: visible;
+}
+main .container .head p{
+    font-size: 15px;
+    padding-top: 50px;
+    width: 40%;
+}
+main .container .homebtn{
+    margin-top: 33px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: rgb(63, 172, 255);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+}
+main .result{
+    position: absolute;
+    top:70px;
+    right: 60px;
+    width: 435px;
+    min-height: 10px;
+    max-height: 720px;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+main .result .resCard img{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+main .result .resCard h3{
+    margin: 6px;
+}
+main .result .resCard p{
+    margin: 6px;
+}
+main .result .resCard button{
+    margin: 6px;
+    padding: 5px 5px;
+    font-size: 14px;
+    background-color: rgb(63, 172, 255);
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+main .result .resCard{
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    
+}
+main .result::-webkit-scrollbar{
+    display: none;
+}
